@@ -33,27 +33,16 @@ Portfolios that lie below the efficient frontier are considered suboptimal becau
 Hence, we need to apply efficient frontier on the portfolio which will be built for Frankie to acheive the investment goal taking into consideration of her risk-preference. 
 
 # Returns
-Initial choice of stocks:
-MBANK
+Choice of 5 stocks:
 PKO
+
 KRUK
-MONARI
-JSW
-KGHM
-ATT
-PGE
-MABION
-ASBIS
+
 BENEFIT
-ORLEN
-SANOK
-DIGITAL
-PZU
-EUROCASH
-ARCTIC
-DEVELIA
-CD PROJECT
-ALIOR
+
+PKN
+
+ATC
 
 Stocks are chosen based on stable sectors such as, banking, pharmaceutical, auto-manufacting, oil, and real estate. We have decided to omit highly volatile sectors such as gaming industry and technology sector due to client's risk preference. 
 
