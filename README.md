@@ -34,6 +34,7 @@ Hence, we need to apply efficient frontier on the portfolio which will be built 
 
 # Returns
 Choice of 5 stocks:
+
 PKO
 
 KRUK
