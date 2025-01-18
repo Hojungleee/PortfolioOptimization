@@ -21,7 +21,7 @@ Capital: 10,000 PLN.
 
 Price of a second-hand car in 2025: 29,900 PLN.
 
-Duration: 3 years (01.01.2025 - 01.01.2028).
+Duration: 3 years (01.01.2022 - 01.01.2025).
 
 Highly risk-averse and wishes to pay for the second-hand car entirely with the return earned from portfolio without paying from her own current wallet. 
 
