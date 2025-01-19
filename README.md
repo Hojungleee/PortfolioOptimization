@@ -13,50 +13,45 @@ Frankie Walsh (25 years old).
 
 No debt/mortgage to pay.
 
-Working in a financial institution.
-
-Goal on investment: to purchase a second-hand car (model: Citroën C1). 
+Goal on investment: to purchase a second-hand car (model: Citroën C1 - price as of 2025: 29,900 PLN). 
 
 Capital: 10,000 PLN.
 
-Price of a second-hand car in 2025: 29,900 PLN.
-
 Duration: 3 years (01.01.2022 - 01.01.2025).
 
-Highly risk-averse and wishes to pay for the second-hand car entirely with the return earned from portfolio without paying from her own current wallet. 
+Risk preference: highly risk-averse. 
 
-Strictly wants the stocks listed in the WSE. 
+Strictly wants to invest in stocks listed in the WSE. 
 
-# Efficient Frontier
-A concept from Modern Portfolio Theory that represents a set of optimal investment portfolios. These portfolios offer the highest possible expected return for a given level of risk or the lowest possible risk for a given level of return. 
-Portfolios that lie below the efficient frontier are considered suboptimal because they either carry unnecessary risk for their level of return or provide less return for their level of risk. The efficient frontier helps investors make decisions about asset allocation based on their risk tolerance and investment goals.
-Hence, we need to apply efficient frontier on the portfolio which will be built for Frankie to acheive the investment goal taking into consideration of her risk-preference. 
+# Assumptions
+Risk-free rate: 1%. 
 
 # Returns
 Choice of 5 stocks:
 
-PKO
+PKO: a multinational banking and financial services company in Poland. 
 
-KRUK
+KRUK: a receivables management market in Poland. 
 
-BENEFIT
+BENEFIT: an institution that provides solutions in the field of non-wage benefits for employees in the area of ​​sports and recreation and employee well-being.
 
-PKN
+PKN: a petrochemical manufacturing company in Poland. 
 
-ATC
+ATC: a company specializes in production and sale of paper and pulp.
 
-Stocks are chosen based on stable sectors such as, banking, pharmaceutical, auto-manufacting, oil, and real estate. We have decided to omit highly volatile sectors such as gaming industry and technology sector due to client's risk preference. 
-
-# Correlation Matrix
-The matrix shows the relationships between asset returns, with values ranging from -1 (perfect negative correlation) to +1 (perfect positive correlation). 
-
-
-- Diversification: Identifies less or negatively correlated assets to reduce risk.
-- Risk Management: Helps balance the portfolio by understanding how assets move together.
-- Optimization: Key input for calculating portfolio risk and selecting optimal asset weights.
-
-In short, it aids in achieving diversification and minimizing risk in portfolio construction.
+Stocks are chosen based on stable sectors such as, banking, oil, raw material manufacturing, operational and more. We have decided to omit highly volatile sectors such as, gaming industry and technology sector due to client's risk preference. 
 
 # Data
 We have downloaded the closing prices of each stocks above from https://stooq.pl with frequency of daily prices. 
+
+# Correlation Matrix
+As Frankie is a highly risk-averse investor, it is crucial to find stocks that are lowly correlated to each other. This is one of the key assumptions of efficient portfolio, all the stocks must be lowly correlated in order to minimize the risk. If the stocks are highly correlated to each other, we need to find a new stock where the correlation coefficient is closer to 0. 
+Hence, it is crucial to conduct correlation matrix prior to constructing an efficient portfolio. Computing the matrix does not only help with detecting highly correlated assets to reduce risk however, helps balance portfolio by interpreting how assets move together and selecting optimal weights for each stocks. 
+The correlation coefficient of each stocks with each other (in our case, PKO, KRUK, BENEFIT, PKN, ATC) should be close to 0. Once it is close to 0, we can move onto calculating the optimal weights for each stocks that will be plotted on the efficient frontier.
+
+# Efficient Frontier
+Efficient frontier is a graph that plots a set of optimal portfolios that provides the investor with the highest expected return for a certain level of risk which the investor can tolerate or the lowest risk level. It is one of a concept from modern portfolio theory. 
+The efficient frontier plots a curve of a risk-return graph. The X-axis represents risk (standard deviation) of portfolio and the Y-axis represents return of portfolio. 
+The portfolio which lies on the frontier is considered to be optimal and most efficient portfolio that provides maximum expected return for a certain level of risk. Portfolios which are not lying on the frontier are not optimal and should be disregarded as it does not match our investment goal (finding the most efficient portfolio). 
+Plotting the efficient frontier and checking if our portfolio lies on the frontier will help Frankie to make deicsions by identifying portfolios that are in line with her risk preference and return expectations. 
 
