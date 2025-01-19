@@ -6,7 +6,7 @@ These financial securities can be divided into several different products which 
 
 At the stock exchange market, there are a lot of companies where they trade various companies' shares. As purchasing companies' stock gives higher return than investing in treasury securities, many investors tend to purchase stocks of companies hoping to earn abnormal returns. However, as the return on the securities are higher, the risk is much higher compared to safer securities as treasury securities. Due to the high level of risk, not every investors purchase stocks of a company but direct to a lot more safer investment options. 
 
-As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is highly risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 5 stocks that are listed in the Warsaw Stock Exchange market. 
+As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is moderate risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 5 stocks that are listed in the Warsaw Stock Exchange market. 
 
 # Client Information
 Frankie Walsh (25 years old).
@@ -19,7 +19,7 @@ Capital: 10,000 PLN.
 
 Duration: 3 years (01.01.2022 - 01.01.2025).
 
-Risk preference: highly risk-averse. 
+Risk preference: moderate risk-averse. 
 
 Strictly wants to invest in stocks listed in the WSE. 
 
@@ -45,7 +45,7 @@ Stocks are chosen based on stable sectors such as, banking, oil, raw material ma
 We have downloaded the closing prices of each stocks above from https://stooq.pl with frequency of daily prices. 
 
 # Correlation Matrix
-As Frankie is a highly risk-averse investor, it is crucial to find stocks that are lowly correlated to each other. This is one of the key assumptions of efficient portfolio, all the stocks must be lowly correlated in order to minimize the risk. If the stocks are highly correlated to each other, we need to find a new stock where the correlation coefficient is closer to 0. 
+As Frankie is a moderate risk-averse investor, it is crucial to find stocks that are lowly correlated to each other. This is one of the key assumptions of efficient portfolio, all the stocks must be lowly correlated in order to minimize the risk. If the stocks are highly correlated to each other, we need to find a new stock where the correlation coefficient is closer to 0. 
 Hence, it is crucial to conduct correlation matrix prior to constructing an efficient portfolio. Computing the matrix does not only help with detecting highly correlated assets to reduce risk however, helps balance portfolio by interpreting how assets move together and selecting optimal weights for each stocks. 
 The correlation coefficient of each stocks with each other (in our case, PKO, KRUK, BENEFIT, PKN, ATC) should be close to 0. Once it is close to 0, we can move onto calculating the optimal weights for each stocks that will be plotted on the efficient frontier.
 
