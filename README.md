@@ -49,15 +49,16 @@ As Frankie is a moderate risk-averse investor, it is crucial to find stocks that
 Hence, it is crucial to conduct correlation matrix prior to constructing an efficient portfolio. Computing the matrix does not only help with detecting highly correlated assets to reduce risk however, helps balance portfolio by interpreting how assets move together and selecting optimal weights for each stocks. 
 The correlation coefficient of each stocks with each other (in our case, PKO, KRUK, BENEFIT, PKN, ATC) should be close to 0. Once it is close to 0, we can move onto calculating the optimal weights for each stocks that will be plotted on the efficient frontier.
 
-# Equally Weighted Portfolio
-Equally Weighted Portfolio is a portfolio which assigns equal amount of weights to each stocks in the portfolio irrespective of their risk and expected return. Efficient frontier concept is not used in MVP as we do not have to find out optimal weights for each stocks to construct the most efficient portfolio. This concept is one of the simplest method of attempting to build the most efficient portfolio. We can compare the expected return and the level of risk of our portfolio when we equally weight the stocks to our portfolio's performance using optimally weighted stocks based on Efficient Frontier. 
-
-
 # Efficient Frontier
 Efficient frontier is a graph that plots a set of optimal portfolios that provides the investor with the highest expected return for a certain level of risk which the investor can tolerate or the lowest risk level. It is one of a concept from modern portfolio theory. 
 The efficient frontier plots a curve of a risk-return graph. The X-axis represents risk (standard deviation) of portfolio and the Y-axis represents return of portfolio. 
 The portfolio which lies on the frontier is considered to be optimal and most efficient portfolio that provides maximum expected return for a certain level of risk. Portfolios which are not lying on the frontier are not optimal and should be disregarded as it does not match our investment goal (finding the most efficient portfolio). 
 Plotting the efficient frontier and checking if our portfolio lies on the frontier will help Frankie to make deicsions by identifying portfolios that are in line with her risk preference and return expectations. 
+
+# Equally Weighted Portfolio
+Equally Weighted Portfolio is a portfolio which assigns equal amount of weights to each stocks in the portfolio irrespective of their risk and expected return. Efficient frontier concept is not used in MVP as we do not have to find out optimal weights for each stocks to construct the most efficient portfolio. This concept is one of the simplest method of attempting to build the most efficient portfolio. We can compare the expected return and the level of risk of our portfolio when we equally weight the stocks to our portfolio's performance using optimally weighted stocks based on Efficient Frontier. 
+
+For our portfolio, as we chose 5 stocks, all the stocks will be assigned with 20% of weights.
 
 # Final Advice
 As Frankie wishes to achieve the highest return at the minimum level of risk, we should recommend Frankie to choose portfolios with optimally weighted stocks as it gives higher return for lower risk. 
