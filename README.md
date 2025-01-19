@@ -13,9 +13,7 @@ Frankie Walsh (25 years old).
 
 No debt/mortgage to pay.
 
-Goal on investment: to purchase a second-hand car (model: Citroën C1 - price as of 2025: 29,900 PLN). 
-
-Capital: 10,000 PLN.
+Goal on investment: to gain the highest amount of yield (return) by taking the lowest level of risk according to stocks listed on WSE.
 
 Duration: 3 years (01.01.2022 - 01.01.2025).
 
