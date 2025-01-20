@@ -1,4 +1,4 @@
-# Portfolio Optimization
+# Portfolio Optimization & Project Description
 This is a repository that includes codes to construct the most optimally efficient portfolio based on Warsaw Stock Exchange to help risk-averse investors make informed decisions. 
 
 As the financial market and the economy is growing globally, many investors across the globe found investing in financial securities to be a great source of income.
@@ -6,7 +6,7 @@ These financial securities can be divided into several different products which 
 
 At the stock exchange market, there are a lot of companies where they trade various companies' shares. As purchasing companies' stock gives higher return than investing in treasury securities, many investors tend to purchase stocks of companies hoping to earn abnormal returns. However, as the return on the securities are higher, the risk is much higher compared to safer securities as treasury securities. Due to the high level of risk, not every investors purchase stocks of a company but direct to a lot more safer investment options. 
 
-As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is moderate risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 6 stocks that are listed in the Warsaw Stock Exchange market. 
+As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is moderate risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 6 stocks that are listed in the Warsaw Stock Exchange market. Hence, our goal for this investment/project is to write a code that would maximize the return of Frankie's investment by minimizing the risk. 
 
 # Client Information
 Frankie Walsh (25 years old).
@@ -20,9 +20,6 @@ Duration: 3 years (01.01.2022 - 01.01.2025).
 Risk preference: moderate risk-averse. 
 
 Strictly wants to invest in stocks listed in the WSE. 
-
-# Assumptions
-Risk-free rate: 1%. 
 
 # Returns
 Choice of 6 stocks:
