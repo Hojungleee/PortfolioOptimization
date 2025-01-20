@@ -6,7 +6,7 @@ These financial securities can be divided into several different products which 
 
 At the stock exchange market, there are a lot of companies where they trade various companies' shares. As purchasing companies' stock gives higher return than investing in treasury securities, many investors tend to purchase stocks of companies hoping to earn abnormal returns. However, as the return on the securities are higher, the risk is much higher compared to safer securities as treasury securities. Due to the high level of risk, not every investors purchase stocks of a company but direct to a lot more safer investment options. 
 
-As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is moderate risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 5 stocks that are listed in the Warsaw Stock Exchange market. 
+As much as the investment is safer, the low returns on the investment left our client (Frankie Walsh) dissatisfied with the performance of the portfolio and have inquired us to build a whole new portfolio that is efficient. Efficient portfolio refers to a portfolio of stocks with different combination of stocks to receive the highest amount of returns by taking the lowest amount of risk. As Frankie is moderate risk-averse investor, residing in Warsaw, Poland, we will construct a portfolio of 6 stocks that are listed in the Warsaw Stock Exchange market. 
 
 # Client Information
 Frankie Walsh (25 years old).
@@ -25,7 +25,7 @@ Strictly wants to invest in stocks listed in the WSE.
 Risk-free rate: 1%. 
 
 # Returns
-Choice of 5 stocks:
+Choice of 6 stocks:
 
 PKO: a multinational banking and financial services company in Poland. 
 
@@ -33,11 +33,13 @@ KRUK: a receivables management market in Poland.
 
 BENEFIT: an institution that provides solutions in the field of non-wage benefits for employees in the area of ​​sports and recreation and employee well-being.
 
-PKN: a petrochemical manufacturing company in Poland. 
+DVL: the largest real estate developer in Poland.
 
 ATC: a company specializes in production and sale of paper and pulp.
 
-Stocks are chosen based on stable sectors such as, banking, oil, raw material manufacturing, operational and more. We have decided to omit highly volatile sectors such as, gaming industry and technology sector due to client's risk preference. 
+JSW: the largest producer of high-quality type of coal in Poland and EU. 
+
+Stocks are chosen based on stable sectors such as, banking, oil, raw material manufacturing, real estate and more. We have decided to omit highly volatile sectors such as, gaming industry and technology sector due to client's risk preference. 
 
 # Data
 We have downloaded the closing prices of each stocks above from https://stooq.pl with frequency of daily prices. 
@@ -45,7 +47,7 @@ We have downloaded the closing prices of each stocks above from https://stooq.pl
 # Correlation Matrix
 As Frankie is a moderate risk-averse investor, it is crucial to find stocks that are lowly correlated to each other. This is one of the key assumptions of efficient portfolio, all the stocks must be lowly correlated in order to minimize the risk. If the stocks are highly correlated to each other, we need to find a new stock where the correlation coefficient is closer to 0. 
 Hence, it is crucial to conduct correlation matrix prior to constructing an efficient portfolio. Computing the matrix does not only help with detecting highly correlated assets to reduce risk however, helps balance portfolio by interpreting how assets move together and selecting optimal weights for each stocks. 
-The correlation coefficient of each stocks with each other (in our case, PKO, KRUK, BENEFIT, PKN, ATC) should be close to 0. Once it is close to 0, we can move onto calculating the optimal weights for each stocks that will be plotted on the efficient frontier.
+The correlation coefficient of each stocks with each other (in our case, PKO, KRUK, BENEFIT, DVL, ATC, JSW) should be close to 0. Once it is close to 0, we can move onto calculating the optimal weights for each stocks that will be plotted on the efficient frontier.
 
 # Efficient Frontier
 Efficient frontier is a graph that plots a set of optimal portfolios that provides the investor with the highest expected return for a certain level of risk which the investor can tolerate or the lowest risk level. It is one of a concept from modern portfolio theory. 
@@ -56,7 +58,7 @@ Plotting the efficient frontier and checking if our portfolio lies on the fronti
 # Equally Weighted Portfolio
 Equally Weighted Portfolio is a portfolio which assigns equal amount of weights to each stocks in the portfolio irrespective of their risk and expected return. Efficient frontier concept is not used in MVP as we do not have to find out optimal weights for each stocks to construct the most efficient portfolio. This concept is one of the simplest method of attempting to build the most efficient portfolio. We can compare the expected return and the level of risk of our portfolio when we equally weight the stocks to our portfolio's performance using optimally weighted stocks based on Efficient Frontier. 
 
-For our portfolio, as we chose 5 stocks, all the stocks will be assigned with 20% of weights.
+For our portfolio, as we chose 6 stocks, all the stocks will be assigned with 16.7% of weights.
 
 # Final Advice
 As Frankie wishes to achieve the highest return at the minimum level of risk, we should recommend Frankie to choose portfolios with optimally weighted stocks as it gives higher return for lower risk. 
